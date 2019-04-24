@@ -1,0 +1,22 @@
+.myform1 {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding-top: 5px;
+}
+.custom-switch {
+
+    padding: 20px 0px 0px 90px;
+}
+
+.input-group  {
+
+width: 350px;
+padding: 200px 30px 10px 50px ;
+border-top-left-radius:1;}
+.form-control {
+    border-top-left-radius: 1;
+    border-bottom-left-radius: 1;
+}
+.form-group {
+    margin-top: 3em
+}

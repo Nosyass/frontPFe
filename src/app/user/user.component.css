@@ -1,0 +1,118 @@
+.container{
+  margin-top: 150px
+}
+  .user_card {
+    height: 400px;
+    width: 800px;
+    margin-top: auto;
+    margin-bottom: auto;
+    background:#9ce69e2b;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+
+  }
+  .brand_logo_container {
+    position: absolute;
+    height: 170px;
+    width: 170px;
+    top: -75px;
+    border-radius: 50%;
+
+    padding: 10px;
+    text-align: center;
+  }
+  .brand_logo {
+    margin-top: 30px;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+  
+  }
+  .brand_logo1 {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid white;
+  }
+  .form_container {
+    margin-top: 100px;
+  }
+  .login_btn {
+    margin-left: 430px;
+    width: 27%;
+    background: green;
+    color: white !important;
+  }
+  .login_btn:focus {
+    box-shadow: none !important;
+    outline: 0px !important;
+  }
+  .login_container {
+    padding: 0 2rem;
+  }
+  .input-group-text {
+    background: green !important;
+    color: white !important;
+    border: 0 !important;
+    border-radius: 0.25rem 0 0 0.25rem !important;
+  }
+  .input_user,
+  .input_pass:focus {
+    box-shadow: none !important;
+    outline: 0px !important;
+  }
+  .custom-checkbox .custom-control-input:checked~.custom-control-label::before {
+    background-color: green!important;
+  }
+
+
+  .user_card1 {
+    height: 400px;
+    width: 250px;
+    margin-top:-400px;
+    margin-left: 260px ;
+    background: #fff;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+
+  }
+  .form1{
+    
+    margin-left: -170px;
+  
+  }
+  .form2{
+    
+    margin-top: -210px;
+    margin-left: 300px;
+  }
+  .ng-untouched{
+    margin-left: 130px;
+  }
+  .mt-4{
+    margin-left: 430px
+  }
+
+
+  .vl {
+    border-left: 3px solid #1111111f;
+    height: 400px;
+    position: absolute;
+    left: 50%;
+    margin-left: -90px;
+    top: 0;
+  }

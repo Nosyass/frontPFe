@@ -1,0 +1,135 @@
+
+<app-menu></app-menu>
+
+<div class="container ">
+    <div class="row">
+      <div class="col-lg-10 offset-2 " >
+
+
+          <div class="form-group row ml-5">
+
+              <div class="form-group form-inline ">
+                  <label for="num">Numéro employeur</label>
+                 
+                      <select name="emp" class="form-control mx-sm-3" id="emp" required >
+                       
+                          <option [value]="cle_emp" *ngFor="let myds of ds">{{ myds.cle_emp }}</option>
+                        </select>
+                   
+                 
+                </div>
+                <div class="form-group form-inline">
+                    <label for="code">Code exploitation</label>
+                    <select name="emp" class="form-control mx-sm-3" id="emp"  required>
+                       
+                        <option [value]="cle_exp" *ngFor="let myds of ds">{{ myds.cle_exp }}</option>
+                      </select>
+                  </div></div>
+                  <div class="form-group row myform0">
+              <div class="form-group form-inline">
+          
+    
+            <select name="trimestre" id="trimestre" class="form-control col-lg-12">
+                <option value="" hidden>Trimestre</option>
+              <option value="trim" *ngFor="let trim of trimestre">{{ trim }}</option>
+            </select>
+          </div>
+          <div class="form-group form-inline">
+      
+            <select name="annee" id="annee" class="form-control col-lg-12 ml-1 ">
+                <option value="" hidden>Année</option>
+              <option value="year" *ngFor="let year of annee">{{ year }}</option>
+            </select>
+          </div>
+        
+         </div>
+    
+    
+         <button type="button" class="btn btn-primary mt-5" data-toggle="modal" data-target="#myModal">
+            chercher
+          </button>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>                  
+       
+          
+          
+            <!-- The Modal -->
+            <div class="modal fade" id="myModal">
+              <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                
+                  <!-- Modal Header -->
+                  <div class="modal-header">
+                    <h4 class="modal-title">Employeur</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  </div>
+                  
+                  <!-- Modal body -->
+                  <div class="modal-body">
+                      En ../../.... l'employeur ....... de code d'exploitation ...... a payé le montant ...... pour le trimestre ...
+                     
+           
+  <table class="table table-striped">
+      
+    <thead>
+      <tr><h5 class="text-center ">Assurés non déclarés</h5></tr>
+      <tr>
+          <th>numéro</th>
+        <th>nom</th>
+        <th>prenom</th>
+        
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td></td>
+        <td>ali</td>
+        <td>ali</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>ali</td>
+          <td>ali</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>ali</td>
+            <td>ali</td>
+          </tr>
+          <tr>
+              <td></td>
+              <td>ali</td>
+              <td>ali</td>
+            </tr>
+    </tbody>
+  </table>
+                  </div>
+                  
+                  
+                  <!-- Modal footer -->
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">fermer</button>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+  
+        
+          
+</div>

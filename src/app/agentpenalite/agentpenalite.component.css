@@ -1,0 +1,34 @@
+.row {          margin: 30px 10px 0px 40px;}
+.col-form-label {    padding-right: 7px;}
+.myform {
+    margin: -38px 100px;
+}
+
+.myform2 {
+    margin: 30px 0px -19px -200px;
+
+}
+.myform3 {
+margin: -38px 30px;}
+
+.myform1 {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding-top: 10px;
+    margin: 50px 20px 20px 20px;
+}
+
+.formcard{
+    margin: 100px 0px 10px 120px;
+}
+.form{margin: 30px 10px 0px 195px;}
+
+.modal-content {
+    margin: 170px 170px;
+   width: 70%}
+   .modal-body {
+   margin: 10px 10px 10px -170px;}
+
+  .card {
+    margin-left: 7.1rem;
+}

@@ -1,0 +1,93 @@
+<h1 class="text-center text-white bg-success">AGENT DE DECLARATION</h1>
+
+
+
+<div class="container  ">
+        <div class="row">
+                <div class="col-lg-6 offset-2 ">
+                        <div class="form-group row mt-5">
+
+                                 <div class="form-group form-inline ">
+                                                
+                                        <label for="num">Numéro employeur</label>
+                                        <select name="emp" class="form-control mx-sm-3" id="emp"
+                                                [(ngModel)]="selectedEmploy">
+
+                                                <option [ngValue]="empl" *ngFor="let empl of employeurs">
+                                                        {{ empl.cleEmp }}
+                                                </option>
+                                        </select>
+
+
+                                </div>
+                                <div class="form-group form-inline" *ngIf="selectedEmploy">
+                                        <label for="code">Code exploitation</label>
+                                        <select name="exp" class="form-control mx-sm-3" id="exp"
+                                                [(ngModel)]="selectedCodeExploi" required>
+
+                                                <option [ngValue]="codeExpl"
+                                                        *ngFor="let codeExpl of selectedEmploy.codeExploitations">
+                                                        {{ codeExpl.cleExp }}
+                                                </option>
+                                        </select>
+                                </div> 
+
+
+                        </div>
+                        <div class="form-group row form">
+
+                                <div class="form-group form-inline">
+
+
+                                        <select name="trimestre" id="trimestre" class="form-control col-lg-12  ">
+                                                <option value="" hidden>Trimestre</option>
+                                                <option value="trim" *ngFor="let trim of trimestre">{{ trim }}</option>
+                                        </select>
+                                </div>
+                                <div class="form-group form-inline">
+
+                                        <select name="annee" id="annee" class="form-control col-lg-12 ml-1 ">
+                                                <option value="" hidden>Année</option>
+                                                <option value="year" *ngFor="let year of annee">{{ year }}</option>
+                                        </select>
+                                </div>
+                                <button type="button" class="btn btn-primary ml-5 mt-2 mb-4"
+                                        (click)="recherche()">Ok</button>
+                        </div>
+
+                </div>
+        </div>
+</div>
+
+
+<div class="col-lg-8 offset-2 ">
+        <div class="form-group row">
+
+                <table class="table">
+
+                        <tr>
+                                <th> Matricule </th>
+                                <th>Nom</th>
+                                <th>Prenom</th>
+
+                        </tr>
+                        <tr *ngFor="let myassure of selectedCodeExploi.assures ;  let i=index">
+                                <td>{{ i+1 }}</td>
+                                <td>{{ myassure.cleAssure}}</td>
+                                <td>{{myassure.nom}}</td>
+                                <td>{{myassure.prenom}}</td>
+                        </tr>
+
+
+
+
+                </table>
+
+
+
+
+
+
+
+        </div>
+</div>

@@ -1,0 +1,292 @@
+<h1 class="text-center text-white bg-success">Etat Récapitulatif</h1> 
+ <div class="container"> 
+      <a href="#"><button type="button" class="btn btn-info btn-sm my-0 ">
+      <span class="glyphicon glyphicon-inbox"></span> Messages
+      <span class="badge badge-light">1</span>
+        </button>
+      </a>
+    
+      
+</div>
+<div class="container ">
+    <div class="col-lg-12">
+
+      
+        <div class="form-group row ">
+  
+            <div class="form-group form-inline ">
+                <label for="num">Employeur</label>
+                <input type="text" id="num" class="form-control mx-sm-3" >
+               
+              </div>
+              <div class="form-group form-inline">
+                  <label for="code">Code exploitation</label>
+                  <input type="text" id="code" class="form-control mx-sm-3" >
+                 
+                </div>
+                <div class="form-group form-inline">
+                    <label for="code">Raison sociale</label>
+                    <input type="text" id="code" class="form-control mx-sm-3" >
+                   
+                  </div>
+                
+        </div> 
+        <div class="form-group row">  
+          
+            <div class="form-group form-inline">
+                <label for="code">Date saisie</label>
+                <input type="text" id="code" class="form-control mx-sm-3" >
+               
+              </div>
+              <div class="form-group form-inline ml-3">
+                  <label for="code">Date réglement</label>
+                  <input type="text" id="code" class="form-control mx-sm-3" >
+                 
+                </div>
+                <div class="form-group form-inline ">
+                <select name="trimestre" id="trimestre" class="form-control col-lg-12">
+                    <option value="" hidden class="myform3">Trimestre</option>
+                  <option value="trim" *ngFor="let trim of trimestre">{{ trim }}</option>
+                </select>
+              </div>
+              <div class="form-group form-inline">
+          
+                <select name="annee" id="annee" class="form-control col-lg-12  ">
+                    <option value="" hidden>Année</option>
+                  <option value="year" *ngFor="let year of annee">{{ year }}</option>
+                </select>
+              </div>
+              <div class="form-group form-inline col-lg-2 ml-3">
+                  <label for="code">Code caisse</label>
+                  <input type="text" id="code" class="form-control col-3 mx-sm-3" >
+                 
+                </div>
+        </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div> </div>
+ 
+  <div class="container">
+    
+      <div class="card">
+          <h3 class="card-header text-center font-weight-bold  py-1">Régime Général </h3>
+          <div class="card-body">
+            <div id="table" class="table-editable">
+              <span class="table-add float-right mb-3 mr-2"><a href="#!" class="text-success"><i class="fas fa-plus fa-2x"
+                    aria-hidden="true"></i></a></span>
+                    <div class="table-wrapper-scroll-y my-custom-scrollbar">
+              <table class="table table-bordered table-responsive-md table-striped text-center">
+ 
+          <tr>
+            <th class="text-center" >Numéro</th>
+            <th class="text-center" style="width: 40%">Nom/Prénom assuré</th>
+            <th class="text-center" style="width: 25%">Salaire</th>
+            <th class="text-center" style="width: 25%">Montant à payer</th>
+            <th class="text-center">Annuler</th>
+            
+          </tr>
+          <tr>
+            <td  >1</td>
+            <td  ></td>
+            <td  ></td>
+            <td  ></td>
+           
+          
+            <td>
+              <span class="table-remove"><button type="button" class="btn btn-danger btn-rounded btn-sm my-0">Annuler</button></span>
+            </td>
+          </tr>
+     
+          <tr>
+            <td  >2</td>
+            <td  ></td>
+            <td  ></td>
+            <td  ></td>
+            
+            <td>
+              <span class="table-remove"><button type="button" class="btn btn-danger btn-rounded btn-sm my-0">Annuler</button></span>
+            </td>
+          </tr>
+       
+          <tr>
+            <td  >3</td>
+            <td  ></td>
+            <td  ></td>
+            <td  ></td>
+            
+            <td>
+              <span class="table-remove"><button type="button" class="btn btn-danger btn-rounded btn-sm my-0">Annuler</button></span>
+            </td>
+          </tr>
+       
+          <tr class="hide">
+            <td  >4</td>
+            <td  ></td>
+            <td  ></td>
+            <td  ></td>
+            
+            <td>
+              <span class="table-remove"><button type="button" class="btn btn-danger btn-rounded btn-sm my-0">Annuler</button></span>
+            </td>
+          </tr>
+          
+          <tr class="hide">
+            <td  >4</td>
+            <td  ></td>
+            <td  ></td>
+            <td  ></td>
+            
+            <td>
+              <span class="table-remove"><button type="button" class="btn btn-danger btn-rounded btn-sm my-0">Annuler</button></span>
+            </td>
+          </tr>
+          
+          <tr class="hide">
+            <td  >4</td>
+            <td  ></td>
+            <td  ></td>
+            <td  ></td>
+            
+            <td>
+              <span class="table-remove"><button type="button" class="btn btn-danger btn-rounded btn-sm my-0">Annuler</button></span>
+            </td>
+          </tr>
+          
+          <tr class="hide">
+            <td  >4</td>
+            <td  ></td>
+            <td  ></td>
+            <td  ></td>
+            
+            <td>
+              <span class="table-remove"><button type="button" class="btn btn-danger btn-rounded btn-sm my-0">Annuler</button></span>
+            </td>
+          </tr>
+          
+          <tr class="hide">
+            <td  >4</td>
+            <td  ></td>
+            <td  ></td>
+            <td  ></td>
+            
+            <td>
+              <span class="table-remove"><button type="button" class="btn btn-danger btn-rounded btn-sm my-0">Annuler</button></span>
+            </td>
+          </tr>
+          
+          <tr class="hide">
+            <td  >4</td>
+            <td  ></td>
+            <td  ></td>
+            <td  ></td>
+            
+            <td>
+              <span class="table-remove"><button type="button" class="btn btn-danger btn-rounded btn-sm my-0">Annuler</button></span>
+            </td>
+          </tr>
+          
+          <tr class="hide">
+            <td  >4</td>
+            <td  ></td>
+            <td  ></td>
+            <td  ></td>
+            
+            <td>
+              <span class="table-remove"><button type="button" class="btn btn-danger btn-rounded btn-sm my-0">Annuler</button></span>
+            </td>
+          </tr>
+          
+          <tr class="hide">
+            <td  >4</td>
+            <td  ></td>
+            <td  ></td>
+            <td  ></td>
+            
+            <td>
+              <span class="table-remove"><button type="button" class="btn btn-danger btn-rounded btn-sm my-0">Annuler</button></span>
+            </td>
+          </tr>
+         
+         
+
+          
+        </table></div>
+        <div class="col-lg-8 offset-2 myform5">
+        <div class="form-group row">
+           
+          
+            <div class="form-group form-inline ">
+                <label for="nom">Salaire total</label>
+                <input type="text" id="nom" class="form-control mx-sm-3" >
+               
+              </div>
+            
+           
+                <div class="form-group form-inline ">
+                    <label for="adr">Montant total</label>
+                    <input type="text" id="adr" class="form-control mx-sm-3" >
+                
+                  </div>
+                  <button type="button" class="btn btn-primary bt ">Terminer</button>
+  
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
+
+
+
+ 
+
+
+
+<div class="container ">
+
+ 
+      <div class="row">
+          <div class="col-lg-14 offset-1">
+              <h3 class="text-center" > Penalite </h3>
+            <div class="form-group row">
+                <div class="form-group form-inline ">
+                    <label for="nom">Nombre de jours de retard</label>
+                    <input type="text" id="nom" class="form-control mx-sm-3" >
+                   
+                  </div> <div class="form-group form-inline ">
+                      <label for="nom">Montant </label>
+                      <input type="text" id="nom" class="form-control mx-sm-3" >
+                     
+                    </div>
+                    <div class="form-group form-inline ">
+                        <label for="nom">Total</label>
+                        <input type="text" id="nom" class="form-control mx-sm-3" >
+                       
+                      </div>
+                      <button type="button" class="btn btn-primary bt "  >Paiement</button>
+</div>
+</div>
+</div>
+
+
+
+
+
+              

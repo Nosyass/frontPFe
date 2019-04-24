@@ -1,0 +1,27 @@
+
+.container {
+    max-width: 1300px;
+}
+
+.myform{
+    display: flex;
+
+    border-radius: 0rem;
+    margin-bottom: -10px;
+
+    margin-top: -8px;
+}
+.myform0{
+    margin-left: 102px;
+}
+.myform1{
+    margin-left: 70px;
+}
+.myform2{
+    margin-bottom: -15px;
+}
+.table td, .table th {
+    padding: .55rem; }
+    .tdform{
+        border: 0rem;
+    }

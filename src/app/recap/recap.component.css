@@ -1,0 +1,52 @@
+
+
+.myform1 {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding-top: 5px;
+    margin: 20px 120px 30px 120px;
+}
+.myform {
+    margin: 0px -74px 0px -180px;
+}
+
+.btn-info {
+   
+    margin: -5px 0px 0px 1134px; }
+
+    .table {
+        margin: auto;
+        width: 70%;
+       
+    }
+    .btn-primary {
+        
+        height: 10%;
+    }
+
+    .myform3 {
+        margin: 10px -850px 10px 10px;
+    }
+   
+    .card-body {
+        margin: -17px 0px 10px -150px;
+        WIDTH: 1370px;
+        flex: 1 1 auto;
+        padding: 1.25rem;
+    }
+    .myform4{
+        margin: 10px 250px;
+    }
+    .myform5{
+        margin: 5px 0px -59px 230px;
+    }
+
+    .my-custom-scrollbar {
+        margin: -1px 95px 20px 10px;
+    position: relative;
+    height: 250px;
+    overflow: auto;
+        }
+        .table-wrapper-scroll-y {
+        display: block;
+        }

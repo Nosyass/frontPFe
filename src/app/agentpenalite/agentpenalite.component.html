@@ -1,0 +1,154 @@
+<h1 class="col-lg-12 text-center text-white bg-success">Agent de Pénalité</h1> 
+
+
+<div class="card " style="width: 18rem;">
+    <div class="card-header">
+        <label for="taux" class=" h5 font-weight-bold">Taux : </label>
+        <label class="mr-4 ml-1 h5 font-weight-bold" for="taux">25%</label>
+        <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Modifier taux</a>
+    </div>
+    
+  </div>
+
+
+
+
+
+
+
+
+
+
+  
+  <div class="container ">
+    <div class="row">
+      <div class="col-lg-10 offset-2 ">
+        
+       
+          
+      <div class="form-group row">
+
+          <div class="form-group form-inline ">
+              <label for="num">Numéro employeur</label>
+             
+                  <select name="emp" class="form-control mx-sm-3" id="emp" required >
+                   
+                      <option [value]="cle_emp" *ngFor="let myds of ds">{{ myds.cle_emp }}</option>
+                    </select>
+               
+             
+            </div>
+            <div class="form-group form-inline">
+                <label for="code">Code exploitation</label>
+                <select name="emp" class="form-control mx-sm-3" id="emp"  required>
+                   
+                    <option [value]="cle_exp" *ngFor="let myds of ds">{{ myds.cle_exp }}</option>
+                  </select>
+              </div>
+
+
+
+              
+          </div>
+          <div class="form-group row form">
+             
+                  <div class="form-group form-inline">
+      
+
+                      <select name="trimestre" id="trimestre" class="form-control col-lg-12  ">
+                          <option value="" hidden>Trimestre</option>
+                        <option value="trim" *ngFor="let trim of trimestre">{{ trim }}</option>
+                      </select>
+                    </div>
+                    <div class="form-group form-inline">
+                
+                      <select name="annee" id="annee" class="form-control col-lg-12 ml-1 ">
+                          <option value="" hidden>Année</option>
+                        <option value="year" *ngFor="let year of annee">{{ year }}</option>
+                      </select>
+                    </div> 
+              </div>
+               
+               
+             
+           
+          </div>
+        </div>
+      </div>
+      
+<div class="card formcard font-weight-bold text-center" style="width: 70rem;">
+    <div class="card-header">
+    <h3>Pénalité </h3>
+     
+    
+    <div class="col-lg-10 offset-1 mt-5">
+        
+       
+          
+        <div class="form-group row">
+  
+            <div class="form-group form-inline ">
+                <label for="nb">Nombre de jours de retard</label>
+              
+                    <input name="nb" class="form-control mx-sm-3" id="emp" placeholder="" value="" required>
+                  
+                    
+                  </div>
+                  <div class="form-group form-inline ">
+                      <label for="mt"> Montant</label>
+                      <input  name="mt" class="form-control mx-sm-3" id="cd" placeholder="" value="" required>
+                    
+                    </div>
+  
+  
+  
+                
+            </div>
+    
+  </div>
+
+</div>
+          
+        
+          <!-- The Modal -->
+          <div class="modal fade" id="myModal">
+            <div class="modal-dialog modal-xl">
+              <div class="modal-content">
+              
+                <!-- Modal Header -->
+               
+                
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <div class="container ">
+                        <div class="row">
+                          <div class="col-lg-10 offset-2">
+                              
+                            
+          <div class="form-group form-inline ">
+            <label for="taux">Le nouveau taux de pénalité</label>
+          
+                <input type="number" name="taux" class="form-control mx-sm-3" id="emp" placeholder="" value="" required>
+              
+             
+              </div>
+
+                               <!-- Modal footer -->
+                  <div class="modal-footer">
+                      <button type="button" class="btn btn-primary" data-dismiss="modal">Enregistrer</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+ 
+
+
+         
+
+              
+        
+      
